@@ -1,0 +1,26 @@
+
+/* .item-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} */
+
+.amazon-prime-image{
+  width: 100%;
+  object-fit: cover;
+  margin-bottom:-160px;
+  mask-image: linear-gradient(to top,transparent,rgb(0, 0, 0, 100));
+}
+
+.home-row{
+  padding:0px 0px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+  z-index: 1;
+  margin-top: 40px;
+}
+
+
+
+

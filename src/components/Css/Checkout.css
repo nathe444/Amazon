@@ -1,0 +1,40 @@
+body{
+  background-color: #ffffff;
+}
+
+
+.main-container-checkout{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  column-gap: 5px;
+  background-color: white;
+}
+
+.img{
+  max-width: 1100px;
+  width: 100%;
+}
+
+.greet-text{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.basket-text{
+  margin-top: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin: 10px 0px 20px 20px;
+}
+
+hr{
+  width: 95%;
+  opacity: 0.5;
+}
+
+
+
+
+
