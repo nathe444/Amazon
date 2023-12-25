@@ -1,5 +1,5 @@
  export const initialState={
-  basket:[] ,
+  basket:[],
   amount:0,
   user:null
  };
@@ -22,7 +22,7 @@
         
           let newBasket = [...state.basket];
 
-          if (index>=0){
+          if (index>=0 ){
             newBasket.splice(index,1)
 
           } else{
@@ -49,6 +49,13 @@
           return{
             ...state,
             user:action.user
+          }
+
+        case "EMPTY_BASKET":
+          return{
+            ...state,
+            amount:0,
+            basket:[]
           }
 
         default:

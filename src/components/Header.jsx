@@ -40,7 +40,8 @@ function Header(){
            <p className="header-p">Hello {user?user?.email:'Guest'} <br /> <span onClick={handleSigning}> {user?'Sign Out':'Sign In'} </span></p>
           </Link>
          
-          <p className="header-p">Returns <br /> <span> &Orders </span> </p>
+          <p className="header-p">Returns <br /> <span> <Link to={'/orders'}> &Orders
+          </Link> </span> </p>
 
           <p className="header-p">Your <br />  <span> <a href="">Prime</a> </span></p>
 

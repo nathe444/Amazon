@@ -21,11 +21,11 @@ function Home(){
 
           <Product
              id='2'
-            details={'Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl'}
+            details={'Look Fresh With Hoodies Any Size You want'}
 
-            image={'https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg'}
+            image={'./hoodie.png'}
 
-            price={239}
+            price={839}
 
             ratings={4}
           />
@@ -36,11 +36,11 @@ function Home(){
 
           <Product 
              id='3'
-            details={"Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"}
+            details={"Barbie 2023 (Blu-Ray + Digital)"}
 
-            image={"https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"}
+            image={"https://m.media-amazon.com/images/I/41PUy94yg+L._SY300_.jpg"}
 
-            price={199.99}
+            price={99.99}
           
             ratings={5}
           
@@ -49,13 +49,13 @@ function Home(){
 
           <Product 
               id='4'
-             details={"Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"}
+             details={"Your Local Entertaining Black Nigger From The Suburbs"}
 
-             image={"https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"}
+             image={"./blacknigger.png"}
 
-             price={98.99}
+             price={0.99}
 
-             ratings={4}
+             ratings={5}
           />
 
 
@@ -75,11 +75,11 @@ function Home(){
 
           <Product 
              id='6' 
-             details={"Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"}
+             details={"Nintendo switch 2018 Bundeled with 3 games"}
 
-             image={"https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"}
+             image={"./tv.png"}
 
-             price={1094.98}
+             price={394.98}
 
              ratings={5}
           />

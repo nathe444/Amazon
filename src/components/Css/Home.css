@@ -5,6 +5,12 @@
   justify-content: space-between;
 } */
 
+.main-container{
+  background: rgb(104,122,37);
+  background: linear-gradient(190deg, rgba(104,122,37,1) 0%, rgba(166,214,186,1) 11%, rgba(183,203,116,1) 45%, rgba(176,213,54,1) 64%, rgba(122,121,139,1) 95%, rgba(0,212,255,1) 100%);
+  padding-bottom:100px;
+}
+
 .amazon-prime-image{
   width: 100%;
   object-fit: cover;

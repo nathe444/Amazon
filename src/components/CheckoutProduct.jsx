@@ -1,11 +1,14 @@
   import React from "react";
   import './Css/CheckoutProduct.css'
 import { useStateValue } from "./StateProvider";
+import { useState } from "react";
  
 
   function CheckoutProduct(props){
 
-    const[{basket},setBasket]=useStateValue();
+    const[{basket,amount},setBasket]=useStateValue();
+
+    const[isOrder,setIsOrder]=useState(false);
 
     const removeFromBasket= () => {
       // dispatch the item into the data layer
@@ -36,7 +39,7 @@ import { useStateValue } from "./StateProvider";
             {Array(props.ratings).fill().map(()=><p>🌟</p> )}
             </div>
 
-            <button className="checkout-product-btn" onClick={removeFromBasket}>Remove from Basket</button>
+            <button className="checkout-product-btn" onClick= {removeFromBasket} style={props.isOrder?{display:'none'}:{display:'block'}}>Remove from Basket</button>
 
           </div>
         

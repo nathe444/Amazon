@@ -4,9 +4,12 @@ import Subtotal from './Subtotal';
 import CheckoutProduct from "./CheckoutProduct";
 import { useStateValue } from "./StateProvider";
 
+
+
 function Checkout(){
 
   const [{basket ,user},dispatch]=useStateValue();
+  
 
 
   return(
@@ -27,7 +30,9 @@ function Checkout(){
      </div>
 
 
-        {basket.map((item) =>{
+
+    
+       {basket.map((item) =>{
           return(
             <CheckoutProduct
              id={item.id}
@@ -38,6 +43,9 @@ function Checkout(){
              />
           )
         })}
+   
+
+        
        
       
     </div>
