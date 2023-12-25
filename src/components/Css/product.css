@@ -67,3 +67,17 @@ strong{
   cursor: pointer;
 }
 
+@media(max-width:440px){
+  .product{
+    width: 100%;
+  }
+
+  body{
+    font-size: 18px;
+  }
+
+  .product-image{
+    width: 80px;
+  }
+}
+
